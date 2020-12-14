@@ -39,5 +39,5 @@ This sample project is an opinionated demo of how to leverage Azure DevOps Cli e
 
 # Contribute
 
-- Keep Master branch deployable; create new branches for new features / bug fixes and merge them into Master via Pull Requests when they’re completed.
+- Keep main branch deployable; create new branches for new features / bug fixes and merge them into Main via Pull Requests when they’re completed.
 - Raise feature requests / bugs as issues
