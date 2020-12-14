@@ -1,0 +1,38 @@
+{
+	"OrganisationName": "yourDevOpsOrgName",
+	"ProjectName": "SomeProjectName",
+	"Repository": "SomeRepoName",
+	"Pattern": "Pattern1",
+	"Teams": [
+		{
+			"Name": "Devs",
+			"Details": {
+				"RBAC":"Contributors",
+				"Members": [ 
+					{ "mailAddress": "someemail1@hotmail.com" }, 
+					{ "mailAddress": "someemail2@microsoft.com" } 
+				]
+			}
+		},
+		{
+			"Name": "Testers",
+			"Details": {
+				"RBAC":"Contributors",
+				"Members": [ 
+					{ "mailAddress": "someemail1@hotmail.com" }, 
+					{ "mailAddress": "someemail2@microsoft.com" } 
+				]
+			}
+		},
+		{
+			"Name": "Ops",
+			"Details": {
+				"RBAC":"Contributors",
+				"Members": [
+					{ "mailAddress": "someemail1@hotmail.com" }, 
+					{ "mailAddress": "someemail2@microsoft.com" }
+				]
+			}
+		}
+	]
+}
